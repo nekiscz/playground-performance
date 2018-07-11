@@ -1,5 +1,6 @@
 # k6
-[k6](https://docs.k6.io/docs) is JavaScript load performance testing tool. 
+- [k6](https://k6.io/)
+- [k6 documentation](https://docs.k6.io/docs) 
 
 ## What do you need 
 - docker

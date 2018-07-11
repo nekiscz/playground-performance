@@ -1,0 +1,24 @@
+config:
+  target: "http://test.loadimpact.com/"
+  phases:
+    - 
+      duration: 10
+      arrivalRate: 1
+      rampTo: 5
+      name: "Phase one"
+    - 
+      duration: 20
+      arrivalRate: 5
+      rampTo: 10
+      name: "Phase two"
+    - 
+      duration: 5
+      arrivalRate: 10
+      rampTo: 0 
+      name: "Phase three"
+scenarios:
+  - flow:
+    - get:
+        url: "/"
+    - get:
+        url: "/my_messages.php"
