@@ -11,7 +11,7 @@
 **Cons**
 - syntax isn't same as Node.js JS
   - `import` statement needs to include suffix
-  - no npm module instalation, k6 modules are in global instalation/docker image
+  - no npm module installation, k6 modules are in global installation/docker image
 - no final result check, results can be saved to `InfluxDB` database
 
 ## [Artillery](https://artillery.io/)
